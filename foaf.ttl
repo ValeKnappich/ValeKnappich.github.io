@@ -8,7 +8,6 @@
     foaf:primaryTopic <http://valeknappich.github.io/foaf.rdf#me> .
 
 <http://valeknappich.github.io/foaf.rdf#me> a foaf:Person ;
-    rdfs:comment "Valentin Knappich is lit"@en ;
     foaf:firstName "Valentin"@de ;
     foaf:gender "male"@en ;
     foaf:homepage <http://valeknappich.github.io> ;
