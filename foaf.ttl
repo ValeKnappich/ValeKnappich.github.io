@@ -23,11 +23,6 @@
     foaf:mbox_sha1sum "2dd896cb9a280e0a1d2c06abfc0fcc04e44b3212" ;
     foaf:name "Fergal Monaghan" .
 
-<http://dblp.l3s.de/Authors/Aidan+Hogan> rdfs:label "Faceted DBLP Description of Aidan Hogan" .
-
-<http://dblp.l3s.de/d2r/data/authors/Aidan_Hogan> a foaf:Document ;
-    rdfs:label "DBLP Description of Aidan Hogan" .
-
 <http://eyaloren.org/foaf.rdf#me> a foaf:Person ;
     rdfs:seeAlso <http://eyaloren.org/foaf.rdf> ;
     = <http://data.semanticweb.org/person/eyal-oren>,
@@ -56,8 +51,6 @@
 
 <http://nunolopes.org/foaf.rdf#me> a foaf:Person ;
     foaf:name "Nuno Lopes" .
-
-<http://ontoworld.org/wiki/Special:ExportRDF/Aidan_Hogan> rdfs:label "Ontoworld RDF Description of Aidan Hogan" .
 
 <http://pedantic-web.org/> a foaf:Document ;
     rdfs:label "Pedantic Web Group Homepage" .
@@ -92,11 +85,6 @@
     foaf:depiction <http://swse.org/images/logo_swse_white_medium.gif> ;
     foaf:homepage <http://swse.deri.org/> .
 
-<http://sw.deri.org/~aidanh/> a foaf:Document ;
-    rdfs:label "Aidan Hogan's Homepage (now dead)" .
-
-<http://sw.deri.org/~aidanh/foaf/foaf.rdf> rdfs:label "Aidan's *Old* FOAF File" .
-
 <http://sw.deri.org/~bnsapkota/foaf.rdf#me> a foaf:Person ;
     rdfs:seeAlso <http://sw.deri.org/~bnsapkota/foaf.rdf> ;
     foaf:depiction <http://sw.deri.org/~bnsapkota/np/pictures/DSC00108.JPG> ;
@@ -110,13 +98,7 @@
 <http://swse.deri.org/> a foaf:Document ;
     rdfs:label "SWSE, Semantic Web Search Engine" .
 
-<http://www.aidanhogan.com/> a foaf:Document ;
-    rdfs:label "Aidan Hogan's Homepage" .
-
 <http://www.dcc.uchile.cl/> a foaf:Document .
-
-<http://www.deri.ie/about/team/member/Aidan_Hogan#me> a foaf:Person ;
-    rdfs:seeAlso <http://www.deri.ie/fileadmin/scripts/foaf.php?id=231> .
 
 <http://www.johnbreslin.com/foaf/foaf.rdf#me> a foaf:Person ;
     rdfs:seeAlso <http://www.johnbreslin.com/foaf/foaf.rdf> ;
@@ -133,25 +115,14 @@
     foaf:homepage <http://www.umbrich.net/> ;
     foaf:name "Jürgen Umbrich" .
 
-<http://aidanhogan.com/foaf.rdf#me> a foaf:Person ;
-    rdfs:comment "Aidan Hogan is an Assistant Professor in the Department of Computer Science at the Universidad de Chile. He used in work in DERI Galway."@en ;
-    = <http://aidanhogan.com/foaf/foaf.rdf#Aidan_Hogan>,
-        <http://data.semanticweb.org/person/aidan-hogan>,
-        <http://dblp.l3s.de/d2r/resource/authors/Aidan_Hogan>,
-        <http://korrekt.org/page/Special:URIResolver/Aidan_Hogan>,
-        <http://semanticweb.org/id/Aidan_Hogan>,
-        <http://srvgal65.deri.ie/projectblogs/node/10#this>,
-        <http://sw.deri.org/~aidanh/foaf/foaf.rdf#Aidan_Hogan>,
-        <http://www.deri.ie/about/team/member/Aidan_Hogan#me> ;
+<http://foaf.rdf#me> a foaf:Person ;
+    rdfs:comment "Valentin Knappich is lit"@en ;
     foaf:based_near <http://sws.geonames.org/3871336/> ;
     foaf:currentProject <http://pedantic-web.org/#pw> ;
-    foaf:firstName "Aidan"@en,
-        "Aodhán"@ga-IE ;
+    foaf:firstName "Valentin"@en;
     foaf:gender "male"@en ;
-    foaf:homepage <http://aidanhogan.com/>,
-        <http://sw.deri.org/~aidanh/>,
-        <http://www.aidanhogan.com/> ;
-    foaf:img <http://aidanhogan.com/img/me.jpg> ;
+    foaf:homepage <>;
+    foaf:img <https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg> ;
     foaf:isPrimaryTopicOf <http://dblp.l3s.de/Authors/Aidan+Hogan>,
         <http://dblp.l3s.de/d2r/data/authors/Aidan_Hogan>,
         <http://ontoworld.org/wiki/Special:ExportRDF/Aidan_Hogan>,
@@ -179,8 +150,7 @@
     foaf:mbox <mailto:aidan.hogan@deri.org> ;
     foaf:mbox_sha1sum "d2163e057507f828085f322cc77dc43b4105a158" ;
     foaf:myersBriggs "INTP" ;
-    foaf:name "Aidan Hogan"@en,
-        "Aodhán Ó hÓgáin"@ga ;
+    foaf:name "Valentin Knappich"@de;
     foaf:pastProject <http://sw.deri.org/2007/02/swsepaper/doap.rdf#swse> ;
     foaf:schoolHomepage <http://www.nuigalway.ie/> ;
     foaf:surname "Hogan"@en,
