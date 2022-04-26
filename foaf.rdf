@@ -1,12 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:toilet="http://purl.org/az/Toilet#"
 >
-  <rdf:Description rdf:about="https://valeknappich.github.io/foaf.rdf">
-    <foaf:givenname>Valentin</foaf:givenname>
+  <rdf:Description rdf:about="http://www.umbrich.net/foaf.rdf#me">
+    <owl:sameAs rdf:resource="http://umbrich.net/foaf.rdf#me"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:family_name>Knappich</foaf:family_name>
-    <foaf:gender>Male</foaf:gender>
+    <owl:sameAs rdf:resource="http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id2167instance"/>
+    <foaf:name>Jürgen Umbrich</foaf:name>
+    <foaf:homepage rdf:resource="http://www.umbrich.net/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pedantic-web.org/#pw">
+    <foaf:member rdf:resource="http://richard.cyganiak.de/foaf.rdf#cygri"/>
+    <rdfs:label>Pedantic Web Group</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+    <foaf:member rdf:resource="http://apassant.net/alex"/>
+    <foaf:depiction rdf:resource="http://pedantic-web.org/dilbert.png"/>
+    <foaf:member rdf:resource="http://www.polleres.net/foaf.rdf#me"/>
+    <foaf:member rdf:resource="http://harth.org/andreas/foaf#ah"/>
+    <foaf:member rdf:resource="http://data.semanticweb.org/person/stephane-corlosquet"/>
+    <foaf:member rdf:resource="http://zimmer.aprilfoolsreview.com/antoine#me"/>
+    <rdfs:comment xml:lang="en">The Pedantic Web Group is a loosely organised group of practitioners whose projects and products rely on the quality of the data that's out there. We work with data publishers, tool builders, application developers and standards groups towards an interoperable Web of Data.</rdfs:comment>
+    <foaf:homepage rdf:resource="http://pedantic-web.org/"/>
+    <foaf:member rdf:resource="http://sw-app.org/mic.xhtml#i"/>
+    <foaf:member rdf:resource="http://sw.deri.org/~aidanh/foaf/foaf.rdf#Aidan_Hogan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://my.opera.com/inaomurchu/xml/foaf#me">
+    <foaf:mbox_sha1sum>712b83520bf846cdeb5b8158d541108b12a01447</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://www.deri.ie/about/team/member/Ina_O'Murchu#me"/>
+    <rdfs:seeAlso rdf:resource="http://sw.deri.org/~ina/foaf.rdf"/>
+    <foaf:name>Ina O' Murchu</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.rdf#me">
+    <foaf:knows rdf:resource="http://sw.deri.org/~bnsapkota/foaf.rdf#me"/>
+    <foaf:name xml:lang="de">Valentin Knappich</foaf:name>
+    <foaf:knows rdf:resource="http://www.johnbreslin.com/foaf/foaf.rdf#me"/>
+    <foaf:mbox_sha1sum>d2163e057507f828085f322cc77dc43b4105a158</foaf:mbox_sha1sum>
+    <foaf:knows rdf:resource="http://compsoc.nuigalway.ie/~fuzz/foaf.rdf#Fergal_Monaghan"/>
+    <foaf:firstName xml:lang="en">Valentin</foaf:firstName>
+    <foaf:knows rdf:resource="http://richard.cyganiak.de/foaf.rdf#cygri"/>
+    <foaf:surname xml:lang="ga">Ó hÓgáin</foaf:surname>
+    <foaf:img rdf:resource="https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg"/>
+    <foaf:mbox rdf:resource="mailto:aidan.hogan@deri.org"/>
+    <foaf:knows rdf:resource="http://fooshed.net/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://data.semanticweb.org/person/stephane-corlosquet"/>
+    <foaf:knows rdf:resource="http://www.umbrich.net/foaf.rdf#me"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.dcc.uchile.cl/"/>
+    <foaf:knows rdf:resource="http://my.opera.com/inaomurchu/xml/foaf#me"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://www.deri.ie/fileadmin/scripts/foaf.php?id=231"/>
+    <foaf:knows rdf:resource="http://eyaloren.org/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://sw.deri.org/~haller/foaf.rdf#ah"/>
+    <foaf:knows rdf:resource="http://nunolopes.org/foaf.rdf#me"/>
+    <foaf:myersBriggs>INTP</foaf:myersBriggs>
+    <foaf:knows rdf:resource="http://kantenwerk.org/metadata/foaf.rdf#me"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://ontoworld.org/wiki/Special:ExportRDF/Aidan_Hogan"/>
+    <foaf:knows rdf:resource="http://harth.org/andreas/foaf#ah"/>
+    <foaf:schoolHomepage rdf:resource="http://www.nuigalway.ie/"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://dblp.l3s.de/Authors/Aidan+Hogan"/>
+    <foaf:pastProject rdf:resource="http://sw.deri.org/2007/02/swsepaper/doap.rdf#swse"/>
+    <foaf:title>Dr</foaf:title>
+    <foaf:isPrimaryTopicOf rdf:resource="http://sw.deri.org/~aidanh/foaf/foaf.rdf"/>
+    <rdfs:comment xml:lang="en">Valentin Knappich is lit</rdfs:comment>
+    <foaf:based_near rdf:resource="http://sws.geonames.org/3871336/"/>
+    <foaf:knows rdf:resource="http://g1o.net/foaf.rdf#me"/>
+    <foaf:currentProject rdf:resource="http://pedantic-web.org/#pw"/>
+    <foaf:knows rdf:resource="http://apassant.net/alex"/>
+    <foaf:gender xml:lang="en">male</foaf:gender>
+    <foaf:knows rdf:resource="http://renaud.delbru.fr/rdf/foaf#me"/>
+    <foaf:knows rdf:resource="http://www.polleres.net/foaf.rdf#me"/>
+    <foaf:homepage rdf:resource="http://valeknappich.github.io"/>
+    <foaf:knows rdf:resource="http://zimmer.aprilfoolsreview.com/antoine#me"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://dblp.l3s.de/d2r/data/authors/Aidan_Hogan"/>
+    <foaf:surname xml:lang="en">Hogan</foaf:surname>
+    <foaf:knows rdf:resource="http://semanticweb.org/id/Stefan_Decker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://swse.deri.org/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>SWSE, Semantic Web Search Engine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nunolopes.org/foaf.rdf#me">
+    <foaf:name>Nuno Lopes</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sw.deri.org/2007/02/swsepaper/doap.rdf#swse">
+    <foaf:homepage rdf:resource="http://swse.deri.org/"/>
+    <rdfs:label>Semantic Web Search Engine (SWSE) Project</rdfs:label>
+    <owl:sameAs rdf:resource="http://semanticweb.org/id/SWSE"/>
+    <foaf:depiction rdf:resource="http://swse.org/images/logo_swse_white_medium.gif"/>
+    <rdfs:comment xml:lang="en">A large scale search engine specifically designed for indexing Linked Data.</rdfs:comment>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://zimmer.aprilfoolsreview.com/antoine#me">
+    <owl:sameAs rdf:resource="http://www.deri.ie/about/team/member/Antoine_Zimmermann#me"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:sameAs rdf:resource="http://semanticweb.org/id/Antoine_Zimmermann"/>
+    <foaf:name>Antoine Zimmermann</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sw.deri.org/~bnsapkota/foaf.rdf#me">
+    <rdfs:seeAlso rdf:resource="http://sw.deri.org/~bnsapkota/foaf.rdf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:depiction rdf:resource="http://sw.deri.org/~bnsapkota/np/pictures/DSC00108.JPG"/>
+    <foaf:name>Brahmananda Sapkota</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://valeknappich.github.iofoaf.ttl">
+    <dc:title xml:lang="en">Valentin Knappichs profile</dc:title>
+    <dc:creator rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+    <foaf:primaryTopic rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+    <dc:date>2022-04-26</dc:date>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pedantic-web.org/">
+    <rdfs:label>Pedantic Web Group Homepage</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://valeknappich.github.ioreact-app">
+    <rdfs:label>An old react.js project</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://compsoc.nuigalway.ie/~fuzz/foaf.rdf#Fergal_Monaghan">
+    <owl:sameAs rdf:resource="http://www.deri.ie/about/team/member/Fergal_Monaghan#me"/>
+    <owl:sameAs rdf:resource="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Monaghan:Fergal.html"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:sameAs rdf:resource="http://acronym.deri.org/people/mbox_sha1sum/2dd896cb9a280e0a1d2c06abfc0fcc04e44b3212"/>
+    <foaf:homepage rdf:resource="http://compsoc.nuigalway.ie/~fuzz/"/>
+    <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Fergal_Monaghan"/>
+    <foaf:name>Fergal Monaghan</foaf:name>
+    <rdfs:seeAlso rdf:resource="http://compsoc.nuigalway.ie/~fuzz/foaf.rdf"/>
+    <foaf:mbox_sha1sum>2dd896cb9a280e0a1d2c06abfc0fcc04e44b3212</foaf:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eyaloren.org/foaf.rdf#me">
+    <foaf:homepage rdf:resource="http://eyaloren.org/"/>
+    <rdfs:seeAlso rdf:resource="http://eyaloren.org/foaf.rdf"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eyal-oren"/>
+    <foaf:name>Eyal Oren</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:sameAs rdf:resource="http://semanticweb.org/id/User-3AEyal_Oren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.johnbreslin.com/foaf/foaf.rdf#me">
+    <foaf:name>John Breslin</foaf:name>
+    <rdfs:seeAlso rdf:resource="http://www.johnbreslin.com/foaf/foaf.rdf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:mbox_sha1sum>9a6b7eefc08fd755d51dd9321aecfcc87992e9a2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-breslin"/>
+    <owl:sameAs rdf:resource="http://www.johnbreslin.com/foaf/foaf.rdf#cloud"/>
+    <owl:sameAs rdf:resource="http://www.deri.ie/about/team/member/John_Breslin#me"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/eswc/2007/person-59367"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/stephane-corlosquet">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Stéphane Corlosquet</foaf:name>
+    <foaf:homepage rdf:resource="http://openspring.net"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://richard.cyganiak.de/foaf.rdf#cygri">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:seeAlso rdf:resource="http://richard.cyganiak.de/foaf.rdf"/>
+    <foaf:homepage rdf:resource="http://richard.cyganiak.de/"/>
+    <foaf:name>Richard Cyganiak</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.polleres.net/foaf.rdf#me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Axel Polleres</foaf:name>
+    <foaf:homepage rdf:resource="http://www.polleres.net/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://harth.org/andreas/foaf#ah">
+    <toilet:favouriteToiletPaper rdf:resource="http://dbpedia.org/resource/Andrex"/>
+    <rdfs:seeAlso rdf:resource="http://harth.org/andreas/foaf.rdf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andreas Harth</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://kantenwerk.org/metadata/foaf.rdf#me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Knud Möller</foaf:name>
+    <rdfs:seeAlso rdf:resource="http://sw.deri.org/~knud/knudfoaf.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://g1o.net/foaf.rdf#me">
+    <foaf:homepage rdf:resource="http://g1o.net/"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:seeAlso rdf:resource="http://g1o.net/foaf.rdf"/>
+    <foaf:name>Giovanni Tummarello</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dcc.uchile.cl/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semanticweb.org/id/Stefan_Decker">
+    <foaf:name>Stefan Decker</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.deri.ie/fileadmin/scripts/foaf.php?id=231">
+    <rdfs:label>DERI RDF Description of Aidan Hogan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apassant.net/alex">
+    <foaf:name>Alexandre Passant</foaf:name>
+    <foaf:homepage rdf:resource="http://apassant.net/"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://renaud.delbru.fr/rdf/foaf#me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:homepage rdf:resource="http://renaud.delbru.fr/"/>
+    <rdfs:seeAlso rdf:resource="http://renaud.delbru.fr/rdf/foaf"/>
+    <foaf:name>Renaud Delbru</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fooshed.net/foaf.rdf#me">
+    <foaf:name>Michele Catasta</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:homepage rdf:resource="http://fooshed.net/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sw.deri.org/~haller/foaf.rdf#ah">
+    <foaf:name>Armin Haller</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/3871336/">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Santiago"/>
   </rdf:Description>
 </rdf:RDF>
