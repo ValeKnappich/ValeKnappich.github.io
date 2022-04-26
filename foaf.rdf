@@ -3,22 +3,25 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.ttl#me">
-    <foaf:surname xml:lang="de">Knappich</foaf:surname>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:img rdf:resource="https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg"/>
-    <foaf:gender xml:lang="en">male</foaf:gender>
-    <foaf:homepage rdf:resource="http://valeknappich.github.io"/>
-    <foaf:firstName xml:lang="de">Valentin</foaf:firstName>
-    <foaf:mbox rdf:resource="mailto:valentin.knappich@web.de"/>
-    <foaf:name xml:lang="de">Valentin Knappich</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.rdf">
-    <dc:creator rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.ttl">
     <dc:date>2022-04-26</dc:date>
+    <dc:title xml:lang="en">Valentin Knappichs profile</dc:title>
+    <dc:creator rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
     <foaf:primaryTopic rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
-    <dc:title xml:lang="en">Valentin Knappichs profile</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.rdf#me">
+    <foaf:mbox rdf:resource="mailto:aidan.hogan@deri.org"/>
+    <foaf:firstName xml:lang="de">Valentin</foaf:firstName>
+    <foaf:homepage rdf:resource="http://valeknappich.github.io"/>
+    <foaf:surname xml:lang="de">Knappich</foaf:surname>
+    <foaf:name xml:lang="de">Valentin Knappich</foaf:name>
+    <foaf:mbox_sha1sum>d2163e057507f828085f322cc77dc43b4105a158</foaf:mbox_sha1sum>
+    <foaf:img rdf:resource="https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg"/>
+    <rdfs:comment xml:lang="en">Valentin Knappich is lit</rdfs:comment>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:gender xml:lang="en">male</foaf:gender>
   </rdf:Description>
 </rdf:RDF>
