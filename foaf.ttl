@@ -1,13 +1,14 @@
+@base <http://valeknappich.github.io/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://valeknappich.github.io/foaf.ttl> a foaf:Document ;
+<foaf.ttl> a foaf:Document ;
     dc:creator <http://valeknappich.github.io/foaf.rdf#me> ;
     dc:date "2022-04-26" ;
     dc:title "Valentin Knappich's profile"@en ;
-    foaf:primaryTopic <http://valeknappich.github.io/foaf.rdf#me> .
+    foaf:primaryTopic <foaf.ttl#me> .
 
-<http://valeknappich.github.io/foaf.ttl#me> a foaf:Person ;
+<foaf.ttl#me> a foaf:Person ;
     foaf:firstName "Valentin"@de ;
     foaf:gender "male"@en ;
     foaf:homepage <http://valeknappich.github.io> ;
