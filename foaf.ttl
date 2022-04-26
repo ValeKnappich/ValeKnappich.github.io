@@ -1,18 +1,20 @@
-@base <http://valeknappich.github.io> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<foaf.ttl> a foaf:Document ;
-    dc:creator <foaf.rdf#me> ;
+<http://valeknappich.github.io/foaf.ttl> a foaf:Document ;
+    dc:creator <http://valeknappich.github.io/foaf.rdf#me> ;
     dc:date "2022-04-26" ;
     dc:title "Valentin Knappichs profile"@en ;
-    foaf:primaryTopic <foaf.rdf#me> .
+    foaf:primaryTopic <http://valeknappich.github.io/foaf.rdf#me> .
 
-<foaf.ttl#me> a foaf:Person ;
-    foaf:firstName "Valentin"@de;
-    foaf:name "Valentin Knappich"@de;
-    foaf:surname "Knappich"@de;
+<http://valeknappich.github.io/foaf.rdf#me> a foaf:Person ;
+    rdfs:comment "Valentin Knappich is lit"@en ;
+    foaf:firstName "Valentin"@de ;
     foaf:gender "male"@en ;
-    foaf:homepage <>;
+    foaf:homepage <http://valeknappich.github.io> ;
     foaf:img <https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg> ;
-    foaf:mbox <mailto:valentin.knappich@web.de> .
+    foaf:mbox <mailto:aidan.hogan@deri.org> ;
+    foaf:mbox_sha1sum "d2163e057507f828085f322cc77dc43b4105a158" ;
+    foaf:name "Valentin Knappich"@de ;
+    foaf:surname "Knappich"@de .
