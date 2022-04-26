@@ -7,7 +7,7 @@
     dc:title "Valentin Knappich's profile"@en ;
     foaf:primaryTopic <http://valeknappich.github.io/foaf.rdf#me> .
 
-<http://valeknappich.github.io/foaf.rdf#me> a foaf:Person ;
+<http://valeknappich.github.io/foaf.ttl#me> a foaf:Person ;
     foaf:firstName "Valentin"@de ;
     foaf:gender "male"@en ;
     foaf:homepage <http://valeknappich.github.io> ;
