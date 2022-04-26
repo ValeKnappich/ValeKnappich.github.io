@@ -4,21 +4,21 @@
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.rdf#me">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.ttl">
+    <dc:title xml:lang="en">Valentin Knappich's profile</dc:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+    <dc:creator rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+    <dc:date>2022-04-26</dc:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.ttl#me">
     <foaf:name xml:lang="de">Valentin Knappich</foaf:name>
-    <foaf:firstName xml:lang="de">Valentin</foaf:firstName>
+    <foaf:homepage rdf:resource="http://valeknappich.github.io"/>
     <foaf:gender xml:lang="en">male</foaf:gender>
     <foaf:img rdf:resource="https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg"/>
-    <foaf:surname xml:lang="de">Knappich</foaf:surname>
-    <foaf:homepage rdf:resource="http://valeknappich.github.io"/>
     <foaf:mbox rdf:resource="mailto:valentin.knappich@web.de"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://valeknappich.github.io/foaf.ttl">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-    <dc:creator rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
-    <dc:title xml:lang="en">Valentin Knappich's profile</dc:title>
-    <dc:date>2022-04-26</dc:date>
-    <foaf:primaryTopic rdf:resource="http://valeknappich.github.io/foaf.rdf#me"/>
+    <foaf:surname xml:lang="de">Knappich</foaf:surname>
+    <foaf:firstName xml:lang="de">Valentin</foaf:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
 </rdf:RDF>
