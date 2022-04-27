@@ -16,8 +16,12 @@
     foaf:mbox <mailto:todo@todo.de> ;
     foaf:name "Robin Schalkowsky"@de ;
     foaf:surname "Schalkowsky"@de ;
-    foaf:knows <foaf.ttl#me> .
+    foaf:knows <foaf.ttl#me> ,
+               _:someone .
 
+_:someone a foaf:Person ;
+    foaf:name "Unknown Person" ;
+    foaf:knows <foaf.ttl#me> .
 
 <foaf.ttl#me> a foaf:Person ;
     foaf:name "Valentin Knappich" .
