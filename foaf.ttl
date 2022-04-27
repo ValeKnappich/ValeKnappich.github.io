@@ -16,7 +16,13 @@
     foaf:mbox <mailto:valentin.knappich@web.de> ;
     foaf:name "Valentin Knappich"@de ;
     foaf:surname "Knappich"@de ;
+    foaf:knows <foaf-robin.ttl#me> ,
+               _:someone .
+
+_:someone a foaf:Person ;
+    foaf:name "Unknown Person" ;
     foaf:knows <foaf-robin.ttl#me> .
 
 <foaf-robin.ttl#me> a foaf:Person ;
     foaf:name "Robin Schalkowsky" .
+
