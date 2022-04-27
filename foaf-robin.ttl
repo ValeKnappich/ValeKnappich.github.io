@@ -1,0 +1,19 @@
+@base <http://valeknappich.github.io/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<foaf-robin.ttl> a foaf:Document ;
+    dc:creator <foaf-robin.ttl#me> ;
+    dc:date "2022-04-26" ;
+    dc:title "Robin Schalkowsky's profile"@en ;
+    foaf:primaryTopic <foaf-robin.ttl#me> .
+
+<foaf-robin.ttl#me> a foaf:Person ;
+    foaf:firstName "Robin"@de ;
+    foaf:gender "male"@en ;
+    foaf:homepage <> ;
+    foaf:img <https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg> ;
+    foaf:mbox <mailto:todo@todo.de> ;
+    foaf:name "Robin Schalkowsky"@de ;
+    foaf:surname "Schalkowsky"@de ;
+    foaf:knows <foaf.ttl#me> .
