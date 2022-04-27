@@ -15,7 +15,8 @@
     foaf:img <https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg> ;
     foaf:mbox <mailto:valentin.knappich@web.de> ;
     foaf:name "Valentin Knappich"@de ;
-    foaf:surname "Knappich"@de .
+    foaf:surname "Knappich"@de ;
+    foaf:knows <foaf-robin.ttl#me> .
 
 <foaf-robin.ttl#me> a foaf:Person ;
     foaf:name "Robin Schalkowsky" .
