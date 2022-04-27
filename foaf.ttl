@@ -3,7 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <foaf.ttl> a foaf:Document ;
-    dc:creator <http://valeknappich.github.io/foaf.rdf#me> ;
+    dc:creator <foaf.ttl#me> ;
     dc:date "2022-04-26" ;
     dc:title "Valentin Knappich's profile"@en ;
     foaf:primaryTopic <foaf.ttl#me> .
@@ -11,7 +11,7 @@
 <foaf.ttl#me> a foaf:Person ;
     foaf:firstName "Valentin"@de ;
     foaf:gender "male"@en ;
-    foaf:homepage <http://valeknappich.github.io> ;
+    foaf:homepage <> ;
     foaf:img <https://imgl.krone.at/scaled/2347804/v0780ce/630x356.jpg> ;
     foaf:mbox <mailto:valentin.knappich@web.de> ;
     foaf:name "Valentin Knappich"@de ;
