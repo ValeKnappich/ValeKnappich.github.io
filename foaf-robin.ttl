@@ -17,11 +17,15 @@
     foaf:name "Robin Schalkowsky"@de ;
     foaf:surname "Schalkowsky"@de ;
     foaf:knows <foaf.ttl#me> ,
-               _:someone .
+            <https://daniel.degu.cl/profile.rdf> ,
+            _:someone .
 
 _:someone a foaf:Person ;
     foaf:name "Unknown Person" ;
     foaf:knows <foaf.ttl#me> .
+
+<https://daniel.degu.cl/profile.rdf> a foaf:Person ;
+    foaf:name "Daniel Hernandez" .
 
 <foaf.ttl#me> a foaf:Person ;
     foaf:name "Valentin Knappich" .
